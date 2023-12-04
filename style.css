@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body{
+    background-image: url(file:///C:/Users/Vijay%20Mainh/Desktop/harman/portfolio/technology.jpg);
+    background-repeat: no-repeat;
+    background-color: #03132C; 
+    font-family: 'VT323',monospace;
+    color: antiquewhite;
+}
+.menu{
+    font-size: 18px;
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    text-align: left;  
+    padding-top: 120px; 
+}
+.button{
+    padding: 18px 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family:'VT323',monospace;
+    font-size: 32px; 
+    border-radius: 10%;
+    color: antiquewhite;
+}
+.button:hover{
+    color: #fff;
+    background-color: #083D89;
+}
+@media only screen and (max-width:600px){
+    #main{margin-left: 0;}
+}
+.main{
+    padding-left: 32px ;
+    margin-left: 120px;
+    text-align: left; 
+    padding-top: 200px;
+    margin-right: 120px;
+}
+.header{   
+    font-family: 'VT323',monospace;
+    color: antiquewhite;
+    font-size: 32px;
+    padding: 0px;
+    line-height: 1.5;
+    padding-bottom: 300px;
+}
+.large{
+    font-size: 52px;
+}
+.about{
+    font-size: 32px ;
+    line-height: 1.15;
+}
+.skill{
+    padding-top: 50px;
+    font-size: 32px;
+}
+.white{
+    background-color: lightgray !important;
+    color: #000 !important;
+    border-radius: 2%;
+}
+.fill{
+    color: lightgray !important;
+    background-color: #083D89 !important;
+    border-radius: 2%;
+}
+.contact{
+    padding-top: 50px;
+    font-size: 32px; 
+}
+.download{
+    padding: 18px 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family:'VT323',monospace;
+    font-size: 32px; 
+    border-radius: 10%;
+    color: antiquewhite;
+    background:#03132C;
+}
+.download a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.download:hover{
+    color: #fff;
+    background-color: #083D89;
+}
+.footer{
+    padding-top: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: antiquewhite;
+}
