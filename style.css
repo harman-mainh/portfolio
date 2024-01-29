@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 body{
-    background-image: url(file:///C:/Users/Vijay%20Mainh/Desktop/harman/portfolio/technology.jpg);
+    background-image: url("../portfolio/technology.jpg");
     background-repeat: no-repeat;
     background-color: #03132C; 
     font-family: 'VT323',monospace;
